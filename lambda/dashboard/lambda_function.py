@@ -153,7 +153,8 @@ def _handle_browse_docs(
         }, request_id)
     result = _get_taxonomy_service().get_browse_docs(
         ta=ta, brand=brand, indication=indication,
-        project_type=project_type, date_from=date_from,
+        project_
+        type=project_type, date_from=date_from,
         date_to=date_to, page=page, page_size=page_size,
         sort_by=sort_by, sort_order=sort_order,
         role=role, capabilities=capabilities,
